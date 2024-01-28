@@ -6,7 +6,7 @@ This site's purpose is to gather game statistics during on on-going season, as w
 
 I'm still learning my ropes in web development, so this site might be rough around the edges. Any improvements, hints, tips and friendly advice are welcomed. I have a few courses worth of experience in HTML and CSS, some experience in C# (not used here though), I use basic SQL in my work as a Service Delivery Specialist, I've taken one course on Full Stack development that introduced me to JavaScript and little experience with Python, Jupyter Notebook, shell scripting and PowerShell scripting. The scripting was fun and I had also one course about ML programming with python. I don't think that I'm made for programming but I'm interested in website development and CSS. It's fun to see what one line of code can do to the entire wesite!
 
-This piece of work is written by me entirely.
+This piece of work is written by me entirely. A part from the Bulma CSS, although some of the styles in the CSS stylesheet are written by me.
 
 ## Team Introduction
 
