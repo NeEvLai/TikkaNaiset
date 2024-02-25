@@ -2,6 +2,8 @@
 
 This site's purpose is to gather game statistics during on on-going season, as well as to refresh the author's web development coding skills. The original code was written as a school assignment for the Web visualization course for JAMK University of applied sciences. The site was build using the Bulma CSS library. The original site contained the main site (home page) and three sub pages, but for this site I decided to drop the other pages, and leave only the stats page.
 
+To the pages: [Tikka Naiset Pistetilastot 23-24](https://neevlai.github.io/TikkaNaiset/)
+
 ## About the author / Disclaimer
 
 I'm still learning my ropes in web development, so this site might be rough around the edges. Any improvements, hints, tips and friendly advice are welcomed. I have a few courses worth of experience in HTML and CSS, some experience in C# (not used here though), I use basic SQL in my work as a Service Delivery Specialist, I've taken one course on Full Stack development that introduced me to JavaScript and little experience with Python, Jupyter Notebook, shell scripting and PowerShell scripting. The scripting was fun and I had also one course about ML programming with python. I don't think that I'm made for programming but I'm interested in website development and CSS. It's fun to see what one line of code can do to the entire wesite!
