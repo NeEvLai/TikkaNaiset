@@ -1,18 +1,18 @@
 # Welcome to Tikka Naiset Stats website
 
-This site's purpose is to gather game statistics during on on-going season, as well as to refresh the author's web development coding skills. The original code was written as a school assignment for the Web visualization course for JAMK University of applied sciences. The site was build using the Bulma CSS library. The original site contained the main site (home page) and three sub pages, but for this site I decided to drop the other pages, and leave only the stats page.
+This site's purpose is to gather game statistics during the on-going season, as well as to refresh the author's web development coding skills. The original code was written as a school assignment for the Web visualization course for JAMK University of applied sciences. The site was built using the Bulma CSS library. The original site contained the main site (home page) and three sub pages, but for this site I decided to drop the other pages, and leave only the stats page.
 
 To the pages: [Tikka Naiset Pistetilastot 23-24](https://neevlai.github.io/TikkaNaiset/)
 
 ## About the author / Disclaimer
 
-I'm still learning my ropes in web development, so this site might be rough around the edges. Any improvements, hints, tips and friendly advice are welcomed. I have a few courses worth of experience in HTML and CSS, some experience in C# (not used here though), I use basic SQL in my work as a Service Delivery Specialist, I've taken one course on Full Stack development that introduced me to JavaScript and little experience with Python, Jupyter Notebook, shell scripting and PowerShell scripting. The scripting was fun and I had also one course about ML programming with python. I don't think that I'm made for programming but I'm interested in website development and CSS. It's fun to see what one line of code can do to the entire wesite!
+I'm still learning my ropes in web development, so this site might be rough around the edges. Any improvements, hints, tips and friendly advice are welcomed. I have a few courses worth of experience in HTML and CSS, some experience in C# (not used here though), I use basic SQL in my work as a Service Delivery Specialist, I've taken one course on Full Stack development that introduced me to JavaScript, and I have a little experience with Python, Jupyter Notebook, shell scripting and PowerShell scripting. The scripting was fun and I had also one course about ML programming with Python. I don't think that I'm made for programming but I'm interested in website development and CSS. It's fun to see what one line of code can do to the entire website!
 
-This piece of work is written by me entirely. A part from the Bulma CSS, although some of the styles in the CSS stylesheet are written by me.
+This piece of work is written by me entirely. Except for those from the Bulma CSS, although some of the styles in the CSS stylesheet are written by me.
 
 ## Team Introduction
 
-Tikkakosken Tikka Naiset plays ringette in a regional hobby league. The players' age varies from 16 to 36 years, and players' careers from a few years to few decades. The team practises twice a weeks and there is an average of 12 games per season, depending on how many teams have enrolled to the league each season. 
+Tikkakosken Tikka Naiset plays ringette in Western Finland's regional hobby league. The players' age varies from 16 to 36 years, and players' careers from a few years to few decades. The team practises twice a week and there are an average of 12 games per season, depending on how many teams have enrolled to the league each season. 
 
 ## Future Plans for the site
 
