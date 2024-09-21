@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="./css/mystyles.css" />
     <script
       src="https://kit.fontawesome.com/04fabee1a5.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+    <script src="./js/sort.js" defer></script>
+    <script src="./js/toggle.js" defer></script>
+    <script type="module" src="./js/player.js" defer></script>
+    <script type="module" src="./js/points.js" defer></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   </head>
   <body>
     <header>
@@ -228,17 +230,14 @@
           <div class="table-container">
             <table
               id="statsTable"
-              class="table is-narrow is-fullwidth has-text-centered"
-            >
+              class="table is-narrow is-fullwidth has-text-centered">
               <thead>
                 <tr>
                   <th onclick="sortTable(0)" class="has-text-centered">
                     NRO
-                    <span class="icon"
-                      ><i
+                    <span class="icon"><i
                         onclick="toggleIcon(this)"
-                        class="fas fa-angle-up"
-                      ></i>
+                        class="fas fa-angle-up"></i>
                     </span>
                   </th>
                   <th onclick="sortTable(1)" class="has-text-centered">
@@ -298,59 +297,43 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>6</td>
-                  <td>Suvi</td>
-                  <td>3</td>
-                  <td>3</td>
-                  <td>6</td>
-                  <td>10</td>
-                  <td>14</td>
-                </tr>
-                <tr>
-                  <td>8</td>
-                  <td>Elina</td>
-                  <td>26</td>
-                  <td>24</td>
-                  <td>50</td>
-                  <td>4</td>
-                  <td>13</td>
-                </tr>
+                <tr id="suvi"></tr>
+                <tr id="elina"></tr>
                 <tr>
                   <td>12</td>
                   <td>Sofia</td>
-                  <td>14</td>
-                  <td>11</td>
-                  <td>25</td>
-                  <td>4</td>
-                  <td>12</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>16</td>
                   <td>Anniina</td>
-                  <td>28</td>
-                  <td>10</td>
-                  <td>38</td>
-                  <td>20</td>
-                  <td>13</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>18</td>
                   <td>Anni</td>
-                  <td>5</td>
-                  <td>9</td>
-                  <td>14</td>
                   <td></td>
-                  <td>11</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>25</td>
                   <td>Nelli</td>
                   <td></td>
-                  <td>4</td>
-                  <td>4</td>
                   <td></td>
-                  <td>12</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>35</td>
@@ -359,7 +342,7 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td>13</td>
+                  <td></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -406,19 +389,10 @@
               height="24"
             />
           </a>
-          <!-- </div>
-            <div class="column"></div>            
-            <div class="column"></div>            
-            <div class="column">
-                <h4 class="subtitle is-5 has-text-white">&copy; kuvat: Suvi Huttunen</h4>
-                <p class="content"><a href="https://www.instagram.com/weheartringette/?hl=fi">We 💙 Ringette</a></p>
-                <p class="content">Sekä joukkueen kotialbumi</p>
-            </div>  -->
         </div>
       </div>
     </footer>
 
-    <script src="./js/sort.js"></script>
-    <script src="./js/toggle.js"></script>
+    
   </body>
 </html>
