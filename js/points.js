@@ -103,7 +103,7 @@ const buildNelli = `
 document.getElementById("nelli").innerHTML = buildNelli;
 
 // Maare
-const playerMaare = new Player(36,"Maare",0,0,0,0);
+const playerMaare = new Player(35,"Maare",0,0,0,0);
 let totalPointsM = playerMaare.totalPoints();
 let totalPenaltiesM = playerMaare.totalMinutes();
 
@@ -120,7 +120,7 @@ const buildMaare = `
 document.getElementById("maare").innerHTML = buildMaare;
 
 // Oona
-const playerOona = new Player("x","Oona",0,0,0,0);
+const playerOona = new Player(0,"Oona",0,0,0,0);
 let totalPointsO = playerOona.totalPoints();
 let totalPenaltiesO = playerOona.totalMinutes();
 
@@ -137,7 +137,7 @@ const buildOona = `
 document.getElementById("oona").innerHTML = buildOona;
 
 // Tilta
-const playerTilta = new Player("x","Tilta",0,0,0,0);
+const playerTilta = new Player(0,"Tilta",0,0,0,0);
 let totalPointsT = playerTilta.totalPoints();
 let totalPenaltiesT = playerTilta.totalMinutes();
 
