@@ -1,7 +1,7 @@
 import Player from "./player.js"
 
 // Suvi
-const playerSuvi = new Player(6,"Suvi",0,0,0,0);
+const playerSuvi = new Player(29,"Suvi",0,0,0,0);
 let totalPoints = playerSuvi.totalPoints();
 let totalPenalties = playerSuvi.totalMinutes();
 
@@ -120,7 +120,7 @@ const buildMaare = `
 document.getElementById("maare").innerHTML = buildMaare;
 
 // Oona
-const playerOona = new Player(0,"Oona",0,0,0,0);
+const playerOona = new Player(48,"Oona",0,0,0,0);
 let totalPointsO = playerOona.totalPoints();
 let totalPenaltiesO = playerOona.totalMinutes();
 
@@ -152,3 +152,20 @@ const buildTilta = `
 `;
 
 document.getElementById("tilta").innerHTML = buildTilta;
+
+// Viivi
+const playerViivi = new Player(27,"Viivi",0,0,0,0);
+let totalPointsV = playerViivi.totalPoints();
+let totalPenaltiesv = playerViivi.totalMinutes();
+
+const buildViivi = `
+    <td>${playerViivi.number}</td> <!-- Pelinumero -->
+    <td>${playerViivi.name}</td> <!-- Nimi -->
+    <td>${playerViivi.goals}</td> <!-- Maalit -->
+    <td>${playerViivi.passes}</td> <!-- Syötöt -->
+    <td>${totalPointsV}</td> <!-- Pisteet -->
+    <td>${totalPenaltiesV}</td> <!-- Jäähyt -->
+    <td>${playerViivi.games}</td> <!-- Pelatut pelit -->
+`;
+
+document.getElementById("viivi").innerHTML = buildViivi;
