@@ -156,7 +156,7 @@ document.getElementById("tilta").innerHTML = buildTilta;
 // Viivi
 const playerViivi = new Player(27,"Viivi",0,0,0,0);
 let totalPointsV = playerViivi.totalPoints();
-let totalPenaltiesv = playerViivi.totalMinutes();
+let totalPenaltiesV = playerViivi.totalMinutes();
 
 const buildViivi = `
     <td>${playerViivi.number}</td> <!-- Pelinumero -->
