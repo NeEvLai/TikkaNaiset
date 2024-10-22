@@ -169,3 +169,20 @@ const buildViivi = `
 `;
 
 document.getElementById("viivi").innerHTML = buildViivi;
+
+// Sini
+const playerSini = new Player(3,"Sini",0,0,0,0);
+let totalPointsSi = playerSini.totalPoints();
+let totalPenaltiesSi = playerSini.totalMinutes();
+
+const buildSini = `
+    <td>${playerSini.number}</td> <!-- Pelinumero -->
+    <td>${playerSini.name}</td> <!-- Nimi -->
+    <td>${playerSini.goals}</td> <!-- Maalit -->
+    <td>${playerSini.passes}</td> <!-- Syötöt -->
+    <td>${totalPointsSi}</td> <!-- Pisteet -->
+    <td>${totalPenaltiesSi}</td> <!-- Jäähyt -->
+    <td>${playerSini.games}</td> <!-- Pelatut pelit -->
+`;
+
+document.getElementById("sini").innerHTML = buildSini;
