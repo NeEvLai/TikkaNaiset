@@ -186,3 +186,54 @@ const buildSini = `
 `;
 
 document.getElementById("sini").innerHTML = buildSini;
+
+// Rea
+const playerRea = new Player(23,"Rea",0,0,0,0);
+let totalPointsR = playerRea.totalPoints();
+let totalPenaltiesR = playerRea.totalMinutes();
+
+const buildRea = `
+    <td>${playerRea.number}</td> <!-- Pelinumero -->
+    <td>${playerRea.name}</td> <!-- Nimi -->
+    <td>${playerRea.goals}</td> <!-- Maalit -->
+    <td>${playerRea.passes}</td> <!-- Syötöt -->
+    <td>${totalPointsR}</td> <!-- Pisteet -->
+    <td>${totalPenaltiesR}</td> <!-- Jäähyt -->
+    <td>${playerRea.games}</td> <!-- Pelatut pelit -->
+`;
+
+document.getElementById("rea").innerHTML = buildRea;
+
+// Sara
+const playerSara = new Player(17,"Sara",0,0,0,0);
+let totalPointsSa = playerSara.totalPoints();
+let totalPenaltiesSa = playerSara.totalMinutes();
+
+const buildSara = `
+    <td>${playerSara.number}</td> <!-- Pelinumero -->
+    <td>${playerSara.name}</td> <!-- Nimi -->
+    <td>${playerSara.goals}</td> <!-- Maalit -->
+    <td>${playerSara.passes}</td> <!-- Syötöt -->
+    <td>${totalPointsSa}</td> <!-- Pisteet -->
+    <td>${totalPenaltiesSa}</td> <!-- Jäähyt -->
+    <td>${playerSara.games}</td> <!-- Pelatut pelit -->
+`;
+
+document.getElementById("sara").innerHTML = buildSara;
+
+// Suvi Kylmälä
+const playerSuviK = new Player(30,"Suvi K",0,0,0,0);
+let totalPointsSu = playerSuviK.totalPoints();
+let totalPenaltiesSu = playerSuviK.totalMinutes();
+
+const buildSuviK = `
+    <td>${playerSuviK.number}</td> <!-- Pelinumero -->
+    <td>${playerSuviK.name}</td> <!-- Nimi -->
+    <td>${playerSuviK.goals}</td> <!-- Maalit -->
+    <td>${playerSuviK.passes}</td> <!-- Syötöt -->
+    <td>${totalPointsSu}</td> <!-- Pisteet -->
+    <td>${totalPenaltiesSu}</td> <!-- Jäähyt -->
+    <td>${playerSuviK.games}</td> <!-- Pelatut pelit -->
+`;
+
+document.getElementById("suvik").innerHTML = buildSuviK;
