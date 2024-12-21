@@ -103,7 +103,7 @@ const buildNelli = `
 document.getElementById("nelli").innerHTML = buildNelli;
 
 // Maare
-const playerMaare = new Player(35,"Maare",0,0,0,2);
+const playerMaare = new Player(35,"Maare (mv)",0,0,0,2);
 let totalPointsM = playerMaare.totalPoints();
 let totalPenaltiesM = playerMaare.totalMinutes();
 
@@ -239,7 +239,7 @@ const buildSuviK = `
 document.getElementById("suvik").innerHTML = buildSuviK;
 
 // Lotta Nyman
-const playerLottaN = new Player(91,"Lotta N",0,0,0,1);
+const playerLottaN = new Player(91,"Lotta N (mv)",0,0,0,1);
 let totalPointsLN = playerLottaN.totalPoints();
 let totalPenaltiesLN = playerLottaN.totalMinutes();
 
