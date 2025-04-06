@@ -1,7 +1,7 @@
 import Player from "./player.js"
 
 // Suvi
-const playerSuvi = new Player(29,"Suvi",2,6,6,9);
+const playerSuvi = new Player(29,"Suvi",5,7,7,11);
 let totalPoints = playerSuvi.totalPoints();
 let totalPenalties = playerSuvi.totalMinutes();
 
@@ -18,7 +18,7 @@ const buildSuvi = `
 document.getElementById("suvi").innerHTML = buildSuvi;
 
 // Elina
-const playerElina = new Player(8,"Elina",19,18,3,9);
+const playerElina = new Player(8,"Elina",25,23,3,11);
 let totalPointsE = playerElina.totalPoints();
 let totalPenaltiesE = playerElina.totalMinutes();
 
@@ -35,7 +35,7 @@ const buildElina = `
 document.getElementById("elina").innerHTML = buildElina;
 
 // Sofia
-const playerSofia = new Player(12,"Sofia",12,8,2,8);
+const playerSofia = new Player(12,"Sofia",15,13,2,10);
 let totalPointsS = playerSofia.totalPoints();
 let totalPenaltiesS = playerSofia.totalMinutes();
 
@@ -52,7 +52,7 @@ const buildSofia = `
 document.getElementById("sofia").innerHTML = buildSofia;
 
 // Anniina
-const playerAnniina = new Player(16,"Anniina",16,11,5,9);
+const playerAnniina = new Player(16,"Anniina",22,16,5,11);
 let totalPointsAs = playerAnniina.totalPoints();
 let totalPenaltiesAs = playerAnniina.totalMinutes();
 
@@ -69,7 +69,7 @@ const buildAnniina = `
 document.getElementById("anniina").innerHTML = buildAnniina;
 
 // Anni
-const playerAnni = new Player(18,"Anni",7,5,2,9);
+const playerAnni = new Player(18,"Anni",8,6,2,11);
 let totalPointsAk = playerAnni.totalPoints();
 let totalPenaltiesAk = playerAnni.totalMinutes();
 
@@ -86,7 +86,7 @@ const buildAnni = `
 document.getElementById("anni").innerHTML = buildAnni;
 
 // Nelli
-const playerNelli = new Player(25,"Nelli",0,3,0,7);
+const playerNelli = new Player(25,"Nelli",0,4,1,9);
 let totalPointsN = playerNelli.totalPoints();
 let totalPenaltiesN = playerNelli.totalMinutes();
 
@@ -137,7 +137,7 @@ const buildOona = `
 document.getElementById("oona").innerHTML = buildOona;
 
 // Tilta
-const playerTilta = new Player(62,"Tilta",2,1,1,5);
+const playerTilta = new Player(62,"Tilta",2,3,1,7);
 let totalPointsT = playerTilta.totalPoints();
 let totalPenaltiesT = playerTilta.totalMinutes();
 
@@ -154,7 +154,7 @@ const buildTilta = `
 document.getElementById("tilta").innerHTML = buildTilta;
 
 // Viivi
-const playerViivi = new Player(27,"Viivi",3,8,3,9);
+const playerViivi = new Player(27,"Viivi",5,8,4,11);
 let totalPointsV = playerViivi.totalPoints();
 let totalPenaltiesV = playerViivi.totalMinutes();
 
@@ -239,7 +239,7 @@ const buildSuviK = `
 document.getElementById("suvik").innerHTML = buildSuviK;
 
 // Lotta Nyman
-const playerLottaN = new Player(91,"Lotta N (mv)",0,0,0,1);
+const playerLottaN = new Player(9,"Lotta N (mv)",0,0,0,3);
 let totalPointsLN = playerLottaN.totalPoints();
 let totalPenaltiesLN = playerLottaN.totalMinutes();
 
@@ -307,7 +307,7 @@ const buildRiikka = `
 document.getElementById("riikka").innerHTML = buildRiikka;
 
 // Saara
-const playerSaara= new Player(50,"Saara",0,0,0,1);
+const playerSaara= new Player(50,"Saara",1,0,1,3);
 let totalPointsSaa = playerSaara.totalPoints();
 let totalPenaltiesSaa = playerSaara.totalMinutes();
 
@@ -324,7 +324,7 @@ const buildSaara = `
 document.getElementById("saara").innerHTML = buildSaara;
 
 // Sofia S
-const playerSofiaS= new Player(30,"Sofia S",0,0,0,2);
+const playerSofiaS= new Player(30,"Sofia S",1,4,0,4);
 let totalPointsSo = playerSofiaS.totalPoints();
 let totalPenaltiesSo = playerSofiaS.totalMinutes();
 
@@ -341,7 +341,7 @@ const buildSofiaS = `
 document.getElementById("sofias").innerHTML = buildSofiaS;
 
 // Marita
-const playerMarita = new Player(20,"Marita",1,0,1,3);
+const playerMarita = new Player(20,"Marita",2,1,2,5);
 let totalPointsMa = playerMarita.totalPoints();
 let totalPenaltiesMa = playerMarita.totalMinutes();
 
