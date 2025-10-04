@@ -119,23 +119,6 @@ const buildMaare = `
 
 document.getElementById("maare").innerHTML = buildMaare;
 
-// Oona
-/* const playerOona = new Player(48,"Oona",0,0,0,0);
-let totalPointsO = playerOona.totalPoints();
-let totalPenaltiesO = playerOona.totalMinutes();
-
-const buildOona = `
-    <td>${playerOona.number}</td> <!-- Pelinumero -->
-    <td>${playerOona.name}</td> <!-- Nimi -->
-    <td>${playerOona.goals}</td> <!-- Maalit -->
-    <td>${playerOona.passes}</td> <!-- Syötöt -->
-    <td>${totalPointsO}</td> <!-- Pisteet -->
-    <td>${totalPenaltiesO}</td> <!-- Jäähyt -->
-    <td>${playerOona.games}</td> <!-- Pelatut pelit -->
-`; 
-
-document.getElementById("oona").innerHTML = buildOona;*/
-
 // Tilta
 const playerTilta = new Player(62,"Tilta",0,0,0,1);
 let totalPointsT = playerTilta.totalPoints();
@@ -153,44 +136,10 @@ const buildTilta = `
 
 document.getElementById("tilta").innerHTML = buildTilta;
 
-// Viivi
-/* const playerViivi = new Player(27,"Viivi",0,0,0,0);
-let totalPointsV = playerViivi.totalPoints();
-let totalPenaltiesV = playerViivi.totalMinutes();
-
-const buildViivi = `
-    <td>${playerViivi.number}</td> <!-- Pelinumero -->
-    <td>${playerViivi.name}</td> <!-- Nimi -->
-    <td>${playerViivi.goals}</td> <!-- Maalit -->
-    <td>${playerViivi.passes}</td> <!-- Syötöt -->
-    <td>${totalPointsV}</td> <!-- Pisteet -->
-    <td>${totalPenaltiesV}</td> <!-- Jäähyt -->
-    <td>${playerViivi.games}</td> <!-- Pelatut pelit -->
-`;
-
-document.getElementById("viivi").innerHTML = buildViivi; */
-
-/* // Sini
-const playerSini = new Player(3,"Sini",0,0,0,0);
-let totalPointsSi = playerSini.totalPoints();
-let totalPenaltiesSi = playerSini.totalMinutes();
-
-const buildSini = `
-    <td>${playerSini.number}</td> <!-- Pelinumero -->
-    <td>${playerSini.name}</td> <!-- Nimi -->
-    <td>${playerSini.goals}</td> <!-- Maalit -->
-    <td>${playerSini.passes}</td> <!-- Syötöt -->
-    <td>${totalPointsSi}</td> <!-- Pisteet -->
-    <td>${totalPenaltiesSi}</td> <!-- Jäähyt -->
-    <td>${playerSini.games}</td> <!-- Pelatut pelit -->
-`;
-
-document.getElementById("sini").innerHTML = buildSini; */
-
 // Meeri
 const playerMeeri = new Player(23,"Meeri",2,2,0,1);
 let totalPointsMee = playerMeeri.totalPoints();
-let totalPenaltiesR = playerMeeri.totalMinutes();
+let totalPenaltiesMee = playerMeeri.totalMinutes();
 
 const buildMeeri = `
     <td>${playerMeeri.number}</td> <!-- Pelinumero -->
@@ -198,7 +147,7 @@ const buildMeeri = `
     <td>${playerMeeri.goals}</td> <!-- Maalit -->
     <td>${playerMeeri.passes}</td> <!-- Syötöt -->
     <td>${totalPointsMee}</td> <!-- Pisteet -->
-    <td>${totalPenaltiesR}</td> <!-- Jäähyt -->
+    <td>${totalPenaltiesMee}</td> <!-- Jäähyt -->
     <td>${playerMeeri.games}</td> <!-- Pelatut pelit -->
 `;
 
@@ -221,23 +170,6 @@ const buildSara = `
 
 document.getElementById("sara").innerHTML = buildSara; */
 
-/* // Suvi Kylmälä
-const playerSuviK = new Player(11,"Suvi K",0,0,0,0);
-let totalPointsSu = playerSuviK.totalPoints();
-let totalPenaltiesSu = playerSuviK.totalMinutes();
-
-const buildSuviK = `
-    <td>${playerSuviK.number}</td> <!-- Pelinumero -->
-    <td>${playerSuviK.name}</td> <!-- Nimi -->
-    <td>${playerSuviK.goals}</td> <!-- Maalit -->
-    <td>${playerSuviK.passes}</td> <!-- Syötöt -->
-    <td>${totalPointsSu}</td> <!-- Pisteet -->
-    <td>${totalPenaltiesSu}</td> <!-- Jäähyt -->
-    <td>${playerSuviK.games}</td> <!-- Pelatut pelit -->
-`;
-
-document.getElementById("suvik").innerHTML = buildSuviK; */
-
 /* // Lotta Nyman
 const playerLottaN = new Player(9,"Lotta N (mv)",0,0,0,0);
 let totalPointsLN = playerLottaN.totalPoints();
@@ -254,23 +186,6 @@ const buildLottaN = `
 `;
 
 document.getElementById("lottan").innerHTML = buildLottaN; */
-
-/* // Jenna
-const playerJenna = new Player(9,"Jenna",0,0,0,0);
-let totalPointsJ = playerJenna.totalPoints();
-let totalPenaltiesJ = playerJenna.totalMinutes();
-
-const buildJenna = `
-    <td>${playerJenna.number}</td> <!-- Pelinumero -->
-    <td>${playerJenna.name}</td> <!-- Nimi -->
-    <td>${playerJenna.goals}</td> <!-- Maalit -->
-    <td>${playerJenna.passes}</td> <!-- Syötöt -->
-    <td>${totalPointsJ}</td> <!-- Pisteet -->
-    <td>${totalPenaltiesJ}</td> <!-- Jäähyt -->
-    <td>${playerJenna.games}</td> <!-- Pelatut pelit -->
-`;
-
-document.getElementById("jenna").innerHTML = buildJenna; */
 
 // Meija
 const playerMeija = new Player(7,"Meija",0,0,0,1);
