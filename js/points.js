@@ -287,7 +287,7 @@ const buildRonja = `
     <td>${playerRonja.games}</td> <!-- Pelatut pelit -->
 `;
 
-document.getElementById("marita").innerHTML = buildRonja;
+document.getElementById("ronja").innerHTML = buildRonja;
 
 // Moona
 const playerMoona = new Player(76,"Moona",1,0,0,1);
