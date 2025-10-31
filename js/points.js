@@ -1,7 +1,7 @@
 import Player from "./player.js"
 
 // Suvi
-const playerSuvi = new Player(29,"Suvi",1,0,0,2);
+const playerSuvi = new Player(29,"Suvi",3,1,0,3);
 let totalPoints = playerSuvi.totalPoints();
 let totalPenalties = playerSuvi.totalMinutes();
 
@@ -18,7 +18,7 @@ const buildSuvi = `
 document.getElementById("suvi").innerHTML = buildSuvi;
 
 // Elina
-const playerElina = new Player(8,"Elina",5,3,0,2);
+const playerElina = new Player(8,"Elina",8,6,0,3);
 let totalPointsE = playerElina.totalPoints();
 let totalPenaltiesE = playerElina.totalMinutes();
 
@@ -35,7 +35,7 @@ const buildElina = `
 document.getElementById("elina").innerHTML = buildElina;
 
 // Sofia
-const playerSofia = new Player(12,"Sofia",2,5,2,2);
+const playerSofia = new Player(12,"Sofia",4,8,3,3);
 let totalPointsS = playerSofia.totalPoints();
 let totalPenaltiesS = playerSofia.totalMinutes();
 
@@ -52,7 +52,7 @@ const buildSofia = `
 document.getElementById("sofia").innerHTML = buildSofia;
 
 // Anniina
-const playerAnniina = new Player(16,"Anniina",5,4,1,2);
+const playerAnniina = new Player(16,"Anniina",7,6,1,3);
 let totalPointsAs = playerAnniina.totalPoints();
 let totalPenaltiesAs = playerAnniina.totalMinutes();
 
@@ -69,7 +69,7 @@ const buildAnniina = `
 document.getElementById("anniina").innerHTML = buildAnniina;
 
 // Anni
-const playerAnni = new Player(18,"Anni",0,5,0,2);
+const playerAnni = new Player(18,"Anni",2,7,0,3);
 let totalPointsAk = playerAnni.totalPoints();
 let totalPenaltiesAk = playerAnni.totalMinutes();
 
@@ -86,7 +86,7 @@ const buildAnni = `
 document.getElementById("anni").innerHTML = buildAnni;
 
 // Nelli
-const playerNelli = new Player(25,"Nelli",0,1,0,2);
+const playerNelli = new Player(25,"Nelli",0,1,0,3);
 let totalPointsN = playerNelli.totalPoints();
 let totalPenaltiesN = playerNelli.totalMinutes();
 
@@ -137,7 +137,7 @@ const buildTilta = `
 document.getElementById("tilta").innerHTML = buildTilta;
 
 // Meeri
-const playerMeeri = new Player(23,"Meeri",2,2,0,1);
+const playerMeeri = new Player(23,"Meeri",4,3,1,2);
 let totalPointsMee = playerMeeri.totalPoints();
 let totalPenaltiesMee = playerMeeri.totalMinutes();
 
@@ -273,7 +273,7 @@ const buildMarita = `
 document.getElementById("marita").innerHTML = buildMarita;
 
 // Ronja
-const playerRonja = new Player(22,"Ronja",0,1,0,2);
+const playerRonja = new Player(22,"Ronja",0,3,0,3);
 let totalPointsRo = playerRonja.totalPoints();
 let totalPenaltiesRo = playerRonja.totalMinutes();
 
@@ -290,7 +290,7 @@ const buildRonja = `
 document.getElementById("ronja").innerHTML = buildRonja;
 
 // Moona
-const playerMoona = new Player(76,"Moona",1,1,0,2);
+const playerMoona = new Player(76,"Moona",5,2,0,3);
 let totalPointsMo = playerMoona.totalPoints();
 let totalPenaltiesMo = playerMoona.totalMinutes();
 
@@ -307,7 +307,7 @@ const buildMoona = `
 document.getElementById("moona").innerHTML = buildMoona;
 
 //Amanda
-const playerAmanda = new Player(40,"Amanda (MV)",0,0,0,1);
+const playerAmanda = new Player(40,"Amanda (MV)",0,0,0,2);
 let totalPointsAm = playerAmanda.totalPoints();
 let totalPenaltiesAm = playerAmanda.totalMinutes();
 
@@ -322,3 +322,37 @@ const buildAmanda = `
 `;
 
 document.getElementById("amanda").innerHTML = buildAmanda;
+
+//Miitta
+const playerMiitta = new Player(30,"Miitta",2,2,1,1);
+let totalPointsMi = playerMiitta.totalPoints();
+let totalPenaltiesMi = playerMiitta.totalMinutes();
+
+const buildMiitta = `
+    <td>${playerMiitta.number}</td>
+    <td>${playerMiitta.name}</td>
+    <td>${playerMiitta.goals}</td>
+    <td>${playerMiitta.passes}</td>
+    <td>${totalPointsMi}</td>
+    <td>${totalPenaltiesMi}</td>
+    <td>${playerMiitta.games}</td>
+`;
+
+document.getElementById("miitta").innerHTML = buildMiitta;
+
+//Unna
+const playerUnna = new Player(21,"Unna",0,1,0,1);
+let totalPointsUn = playerUnna.totalPoints();
+let totalPenaltiesUn = playerUnna.totalMinutes();
+
+const buildUnna = `
+    <td>${playerUnna.number}</td>
+    <td>${playerUnna.name}</td>
+    <td>${playerUnna.goals}</td>
+    <td>${playerUnna.passes}</td>
+    <td>${totalPointsUn}</td>
+    <td>${totalPenaltiesUn}</td>
+    <td>${playerUnna.games}</td>
+`;
+
+document.getElementById("unna").innerHTML = buildUnna;
