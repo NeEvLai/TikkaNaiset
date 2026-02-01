@@ -1,7 +1,7 @@
 import Player from "./player.js"
 
 // Suvi
-const playerSuvi = new Player(29,"Suvi",5,5,0,9);
+const playerSuvi = new Player(29,"Suvi",5,5,0,10);
 let totalPoints = playerSuvi.totalPoints();
 let totalPenalties = playerSuvi.totalMinutes();
 
@@ -52,7 +52,7 @@ const buildSofia = `
 document.getElementById("sofia").innerHTML = buildSofia;
 
 // Anniina
-const playerAnniina = new Player(16,"Anniina",27,8,6,9);
+const playerAnniina = new Player(16,"Anniina",30,9,6,10);
 let totalPointsAs = playerAnniina.totalPoints();
 let totalPenaltiesAs = playerAnniina.totalMinutes();
 
@@ -69,7 +69,7 @@ const buildAnniina = `
 document.getElementById("anniina").innerHTML = buildAnniina;
 
 // Anni
-const playerAnni = new Player(18,"Anni",8,8,1,7);
+const playerAnni = new Player(18,"Anni",8,8,1,8);
 let totalPointsAk = playerAnni.totalPoints();
 let totalPenaltiesAk = playerAnni.totalMinutes();
 
@@ -137,7 +137,7 @@ const buildTilta = `
 document.getElementById("tilta").innerHTML = buildTilta;
 
 // Meeri
-const playerMeeri = new Player(23,"Meeri",6,4,1,3);
+const playerMeeri = new Player(23,"Meeri",8,5,1,4);
 let totalPointsMee = playerMeeri.totalPoints();
 let totalPenaltiesMee = playerMeeri.totalMinutes();
 
@@ -171,7 +171,7 @@ const buildSara = `
 document.getElementById("sara").innerHTML = buildSara;
 
 // Lotta Nyman
-const playerLottaN = new Player(9,"Lotta N (mv)",0,0,0,1);
+const playerLottaN = new Player(9,"Lotta N (mv)",0,0,0,2);
 let totalPointsLN = playerLottaN.totalPoints();
 let totalPenaltiesLN = playerLottaN.totalMinutes();
 
@@ -239,7 +239,7 @@ const buildSaara = `
 document.getElementById("saara").innerHTML = buildSaara; */
 
 // Sofia S
-const playerSofiaS= new Player(48,"Sofia S",0,1,0,4);
+const playerSofiaS= new Player(48,"Sofia S",0,1,0,5);
 let totalPointsSo = playerSofiaS.totalPoints();
 let totalPenaltiesSo = playerSofiaS.totalMinutes();
 
@@ -256,7 +256,7 @@ const buildSofiaS = `
 document.getElementById("sofias").innerHTML = buildSofiaS;
 
 // Marita
-const playerMarita = new Player(20,"Marita",5,2,1,5);
+const playerMarita = new Player(20,"Marita",5,3,1,6);
 let totalPointsMa = playerMarita.totalPoints();
 let totalPenaltiesMa = playerMarita.totalMinutes();
 
@@ -273,7 +273,7 @@ const buildMarita = `
 document.getElementById("marita").innerHTML = buildMarita;
 
 // Ronja
-const playerRonja = new Player(22,"Ronja",2,9,0,9);
+const playerRonja = new Player(22,"Ronja",2,9,0,10);
 let totalPointsRo = playerRonja.totalPoints();
 let totalPenaltiesRo = playerRonja.totalMinutes();
 
@@ -290,7 +290,7 @@ const buildRonja = `
 document.getElementById("ronja").innerHTML = buildRonja;
 
 // Moona
-const playerMoona = new Player(76,"Moona",8,3,2,6);
+const playerMoona = new Player(76,"Moona",8,3,2,7);
 let totalPointsMo = playerMoona.totalPoints();
 let totalPenaltiesMo = playerMoona.totalMinutes();
 
@@ -358,7 +358,7 @@ const buildSuviK = `
 document.getElementById("suvik").innerHTML = buildSuviK;
 
 //Sara S
-const playerSaraS = new Player(30,"Sara S",0,0,0,1);
+const playerSaraS = new Player(30,"Sara S",0,0,1,2);
 let totalPointsSaS = playerSaraS.totalPoints();
 let totalPenaltiesSaS = playerSaraS.totalMinutes();
 
@@ -375,7 +375,7 @@ const buildSaraS = `
 document.getElementById("saras").innerHTML = buildSaraS;
 
 //Unna
-const playerUnna = new Player(21,"Unna",3,3,0,7);
+const playerUnna = new Player(21,"Unna",3,4,0,8);
 let totalPointsUn = playerUnna.totalPoints();
 let totalPenaltiesUn = playerUnna.totalMinutes();
 
@@ -407,3 +407,20 @@ const buildSofiaB = `
 `;
 
 document.getElementById("sofiab").innerHTML = buildSofiaB;
+
+// Minttu
+const playerMinttu = new Player(12,"Minttu",0,1,1,1);
+let totalPointsMinttu = playerMinttu.totalPoints();
+let totalPenaltiesMinttu = playerMinttu.totalMinutes();
+
+const buildMinttu = `
+    <td>${playerMinttu.number}</td>
+    <td>${playerMinttu.name}</td>
+    <td>${playerMinttu.goals}</td>
+    <td>${playerMinttu.passes}</td>
+    <td>${totalPointsMinttu}</td>
+    <td>${totalPenaltiesMinttu}</td>
+    <td>${playerMinttu.games}</td>
+`;
+
+document.getElementById("minttu").innerHTML = buildMinttu;
